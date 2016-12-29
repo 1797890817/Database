@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/JndiDemo" docBase="D:\workspace\JndiDemo"
+	privileged="true" reloadable="true">
+	<Resource name="jdbc/jndi" auth="Container" type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/dbase"
+		username="root" password="root" maxActive="8" maxIdle="2" maxWait="10000" />
+
+</Context>
